@@ -23,7 +23,7 @@ type Content struct {
 
 type ContentFileInfo struct {
 	Owner string      `yaml:"owner,omitempty"`
-	Group string      `yaml:"group"`
+	Group string      `yaml:"group,omitempty"`
 	Mode  os.FileMode `yaml:"mode,omitempty"`
 	MTime time.Time   `yaml:"mtime,omitempty"`
 	Size  int64       `yaml:"-"`
