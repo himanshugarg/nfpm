@@ -1,5 +1,3 @@
-# yaml-language-server: $schema=https://goreleaser.com/static/schema-pro.json
-
 env:
   - GO111MODULE=on
 
@@ -255,3 +253,6 @@ announce:
   discord:
     enabled: true
     message_template: "nFPM {{ .Tag }} is out! See what's new: https://github.com/goreleaser/nfpm/releases/tag/{{ .Tag }}"
+
+# yaml-language-server: $schema=https://goreleaser.com/static/schema-pro.json
+# vim: set ts=2 sw=2 tw=0 fo=jcroql
